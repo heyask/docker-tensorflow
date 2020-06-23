@@ -8,6 +8,7 @@
 First, you have to install docker, docker-compose ([How to Install Docker?](https://docs.docker.com/install/))
 
 ```
+mkdir tensorflow/notebooks
 cp .env.example .env
 docker-compose up
 ```
