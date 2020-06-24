@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest
+FROM tensorflow/tensorflow:latest-jupyter
 
 RUN apt-get update -y
 RUN apt-get upgrade -y
@@ -11,3 +11,5 @@ RUN pip install -U matplotlib
 RUN pip install -U seaborn
 RUN pip install -U sklearn
 RUN pip install -U keras
+RUN pip install -U graphviz
+RUN pip install -U jupyterthemes
